@@ -1,0 +1,101 @@
+ 
+.header {
+    background-color: rgb(53, 61, 177);
+    color: rgb(242, 242, 242);
+    padding: 20px;
+    text-align: left;
+    height: 95vh;
+    width: 10%;
+    
+}
+
+.header h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+
+}
+.user-icon {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 50px;
+     margin-bottom:100px;
+     
+}
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin-right: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #eee9e9;
+    transition: color 0.3s ease;
+    line-height: 2.9;
+    
+
+}
+
+.navigation ul li i {
+    margin-right: 30px;  
+    
+}
+
+.navigation ul li:hover {
+    background-color: #f0f0f06f;
+   
+}
+
+.enrollment-list {
+    position: fixed;
+    left: 20%;
+    top: 11%;
+    bottom: 20%;
+    overflow-y: auto;  
+    font-size:25px;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+          
+            padding: 30px;
+            text-align: left;
+            background-color: #d9d9d9;
+        }
+        
+        th {
+            background-color: #f8f8f8;
+        }
+
+        .edit-btn{
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #459473;
+            color: #fff;
+            text-decoration: none;
+          }
+          
+          .delete-btn{
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #ef5840;
+            color: #fff;
+            text-decoration: none;
+          }
+          
+
+
+ 
+

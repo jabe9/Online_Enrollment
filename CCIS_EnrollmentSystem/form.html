@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCIS Online Enrollment</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Assets/spcf-logo.png" alt="SPCF Logo">
+        </div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="form.html">Online Enrollment</a>
+            <a href="login.html"><i class="fas fa-user"></i> Login</a>
+        </nav>
+    </header>
+
+    <section class="enrollment-form">
+        <form id="enrollmentForm" action="enrollmentform.php" method="post">
+    
+            <h2>CCIS Online Enrollment Form </h2>
+            <label for="name">Last Name:</label>
+            <input type="text" id="LName" name="LName"  required>
+    
+            <label for="name">First Name:</label>
+            <input type="text" id="FName" name="FName" required>
+
+            <label for="student-no">Student No.:</label>
+            <input type="text" id="StudentNum" name="StudentNum" required>
+    
+            <label for="gender">Gender:</label>
+            <select id="Gender" name="Gender" required>
+                <option value="">Select</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                 
+            </select>
+    
+            <label for="course-year">Year:</label>
+            <select id="CourseYear" name="CourseYear" required>
+                <option value="0">Select</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+
+            <label for="course">Course:</label>
+            <select id="Course" name="Course" required>
+                <option value="Select">Select</option>
+                <option value="Bscs">BSCS</option>
+                <option value="NetAd">BSIT Net Ad</option>
+                <option value="MobDev">BSIT Mob Dev</option>
+                <option value="Bsemc">BSEMC</option> 
+            </select><br>
+
+            <label for="section">Section:</label>
+            <select id="Section" name="Section" required>
+                <option value="Select">Select</option>
+                <option value="1a">1a (BSCS)</option>
+                <option value="1b">1b (BSIT Net Ad)</option>
+                <option value="1c">1c (BSIT Mob dev)</option>
+                <option value="1d">1d (BSEMC)</option>
+
+                <option value="2a">2a (BSCS)</option>
+                <option value="2b">2b (BSIT Net Ad)</option>
+                <option value="2c">2c (BSIT Mob dev)</option>
+                <option value="2d">2d (BSEMC)</option>
+
+                <option value="3a">3a (BSCS)</option>
+                <option value="3b">3b (BSIT Net Ad)</option>
+                <option value="3c">3c (BSIT Mob dev)</option>
+                <option value="3d">3d (BSEMC)</option>
+                <option value="3e">3e (BSIT Net ad)</option>
+                <option value="3f">3f (BSIT Net ad)</option>
+
+                <option value="4a">4a (BSCS)</option>
+                <option value="4b">4b (BSIT Net ad)</option>
+                <option value="4c">4c (BSIT Mob dev)</option>
+            </select><br>
+
+            
+            <input type="submit" name="submit" value="Submit">
+            
+        </form>
+    </section>
+</html>
